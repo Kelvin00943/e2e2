@@ -1,0 +1,1150 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+	background: white;
+}
+
+.nav-link , .navbar-brand{
+	color: black;
+	cursor: pointer;
+}
+
+.navbar-brand:hover {
+  color: black;
+}
+
+.nav-link{
+	margin-right: 1em !important;
+}
+
+.nav-link:hover{
+	background: white;
+  cursor: pointer;
+	color: rgba(255, 0, 0, 0.603);
+}
+
+.navbar-collapse{
+  justify-content: flex-end;
+}
+
+.fa-solid{
+  background:black !important;
+}
+
+.Aboutimg {
+    position: relative;
+}
+  
+.Aboutimg .aboutImg {
+    width: 100%;
+    height: 11rem;
+}
+  
+.Aboutimg .about {
+    position: absolute;
+    top: 31%;
+    color: white;
+    padding-left: 2rem;
+    font-size: 22px;
+}
+
+.Aboutimg .aboutHome {
+    position: absolute;
+    top: 50%;
+    padding-left: 2rem;
+    color: white;
+}
+  
+.Aboutimg .aboutHomeLink {
+    text-decoration: none;
+    color: white;
+}
+
+.Aboutimg .aboutHomeLink:hover{
+    color: rgba(255, 0, 0, 0.434);
+}
+  
+.AboutContainer {
+    display: flex;
+    position: relative;
+}
+  
+.AboutContainer .aboutText {
+    position: absolute;
+    top: 20%;
+    font-size: 30px;
+    padding-left: 2rem;
+    letter-spacing: 2px;
+}
+
+.AboutContainer  .forGod {
+    position: absolute;
+    top: 39%;
+    line-height: 30px;
+    padding-left: 2rem;
+  }
+  
+.AboutContainer .mollit {
+    position: absolute;
+    top: 53%;
+    line-height: 30px;
+    padding-left: 2rem;
+}
+
+.AboutContainer .Aboutlink {
+    position: absolute;
+    top: 74%;
+    margin-left: 2rem;
+  }
+  
+.AboutContainer .withUs {
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+}
+
+.AboutContainer .Myimg {
+    float: right;
+    padding-top: 5rem;
+    width: 60%;
+    height: 79%;
+    padding-left: 13rem;
+}
+  
+.ValuesContainer {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(128, 128, 128, 0.132);
+    height: 20rem;
+    margin-top: 4rem;
+}
+
+.ValuesContainer .Valuespan {
+    position: absolute;
+    top: 148.5%;
+    font-size: 30px;
+    padding-left: 0.6rem;
+  }
+  
+.ValuesContainer .Avoutvalues {
+    padding-left: 2.6rem;
+    padding-top: 5rem;
+}
+
+.ValuesContainer .qui {
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.ValuesContainer .link-value {
+    padding-top: 0rem;
+}
+  
+.ValuesContainer .Abtvalue-link {
+    text-decoration: none;
+    color: gray;
+    padding-left: 1.5rem;
+}
+
+.ValuesContainer .span2 {
+    position: absolute;
+    top: 148.6%;
+    font-size: 30px;
+}
+  
+.ValuesContainer .Avoutvalues2 {
+    padding-left: 2.6rem;
+    padding-top: 5rem;
+} 
+
+.ValuesContainer .span3 {
+    position: absolute;
+    top: 148.6%;
+    font-size: 30px;
+}
+  
+.ValuesContainer .Avoutvalues3 {
+    padding-left: 2.6rem;
+    padding-top: 5rem;
+}
+
+.God-Presence {
+    text-align: center;
+    padding-top: 5rem;
+    color: red;
+    font-weight: 600;
+}
+  
+.OurPastors {
+    text-align: center;
+    font-size: 50px;
+}
+
+.Pstimg {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+  
+.Pstimg .PstImg {
+    width: 240px;
+    height: 240px;
+    border-radius: 100%;
+}
+
+.Pstimg .background {
+    background-color: rgba(128, 128, 128, 0.094);
+    height: 26rem;
+    width: 119%;
+    margin-top: -18rem;
+    margin-left: -1.3rem;
+    margin-right: 2rem;
+}
+
+.Pstimg .pstName {
+    position: absolute;
+    font-size: 20px;
+    /* letter-spacing: 1px; */
+    top: 76%;
+    font-weight: 545;
+    padding-left: 2rem;
+}
+  
+.Pstimg .lead {
+    color: red;
+    position: absolute;
+    top: 83%;
+    font-size: 20px;
+    padding-left: 4rem;
+    letter-spacing: 1px;
+    font-weight: 545;
+}
+
+.Pstimg .pst-Name {
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 1px;
+    top: 76%;
+    font-weight: 545;
+    padding-left: 3.8rem;
+  }
+  
+.Pstimg .Jlead {
+    color: red;
+    position: absolute;
+    top: 83%;
+    font-size: 20px;
+    padding-left: 5.6rem;
+    letter-spacing: 1px;
+    font-weight: 545;
+}
+
+.Pstimg .pstname {
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 1px;
+    top: 76%;
+    font-weight: 545;
+    padding-left: 3.5rem;
+  
+}
+  
+.Pstimg .Clead {
+    color: red;
+    position: absolute;
+    top: 83%;
+    font-size: 20px;
+    padding-left: 5.5rem;
+    letter-spacing: 1px;
+    font-weight: 545;
+}
+
+
+.Pstimg .PstName {
+    position: absolute;
+    font-size: 20px;
+    letter-spacing: 1px;
+    top: 76%;
+    font-weight: 545;
+    padding-left: 4.7rem;
+}
+  
+.Pstimg .Klead {
+    color: red;
+    position: absolute;
+    top: 83%;
+    font-size: 20px;
+    padding-left: 6.3rem;
+    letter-spacing: 1px;
+    font-weight: 545;
+}
+
+.Aboutmail {
+  display: flex;
+  margin-top: 6rem;
+  gap: 20%;
+  background-color: rgba(255, 0, 0, 0.689);
+  height: 8rem;
+  position: relative;
+}
+
+.Aboutmail .mail-sub {
+  padding-top: 3.4rem;
+  padding-left: 3rem;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.Aboutmail .my-form {
+  margin-top: 3rem;
+}
+
+.Aboutmail input {
+  width: 20.9%;
+  position: absolute;
+  right: 20%;
+  height: 2.2rem;
+  text-indent: 5px;
+  background-color: white;
+  border: none;
+}
+
+.Aboutmail .About-button {
+  position: absolute;
+  top: 37.4%;
+  left: 80%;
+  height: 2.2rem;
+  border: none;
+  padding: 6px 20px;
+}
+
+.Aboutmail .button-Link {
+  text-decoration: none;
+  color: rgb(241, 7, 7);
+  font-size: 14px;
+}
+
+.Aboutcontact {
+  display: flex;
+}
+
+.Aboutcontact .About-contact {
+  color: black;
+  padding-top: 100px;
+  padding-left: 1rem;
+}
+
+.Aboutcontact .York {
+  color: black;
+  padding-top: 1rem;
+  font-size: 20px;
+  padding-left: 1rem;
+  font-weight: 700;
+}
+
+.Aboutcontact .Avenue {
+  color: gray;
+  padding-left: 1rem;
+  font-size: 20px;
+}
+
+.Aboutcontact .aboutmail {
+  color: black;
+  padding-left: 1rem;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Aboutcontact .infos {
+  color: gray;
+}
+
+.Aboutcontact .Aboutphone {
+  color: black;
+  font-size: 20px;
+  padding-left: 1rem;
+  font-weight: 700;
+}
+
+.AboutFooter {
+  display: flex;
+  background-color: rgba(128, 128, 128, 0.267);
+  margin-top: 2rem;
+}
+
+.AboutFooter p {
+  padding-top: 1.7rem;
+  font-size: 20px;
+  padding-left: 1rem;
+}
+
+@media screen and (max-width: 428px) and (min-width: 390px) {
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 550;
+  }
+  
+  .navbar-brand:hover {
+    color: black;
+  }
+
+  .navbar-toggler-icon, .fa-solid {
+    font-size: 30px;
+    margin-top: 1rem;
+    margin-right: -01rem;
+  }
+
+  .nav-link {
+    font-size: 18px;
+  }
+
+  .Aboutimg {
+    position: relative;
+  }
+  
+  .Aboutimg .aboutImg {
+    width: 100%;
+    height: 15rem;
+  }
+  
+  .Aboutimg .about {
+    position: absolute;
+    top: 37%;
+    color: white;
+    padding-left: 1rem;
+  }
+  
+  .Aboutimg .aboutHome {
+    position: absolute;
+    top: 50%;
+    padding-left: 1rem;
+  }
+  
+  .Aboutimg .aboutHomeLink {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+  }
+
+  .AboutContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  
+  .AboutContainer .aboutText {
+    position: absolute;
+    top: 40%;
+    font-size: 25px;
+    font-weight: 700;
+    padding-left: 0.5rem;
+    letter-spacing: 2px;
+  }
+  
+  .AboutContainer  .forGod {
+    position: absolute;
+    top: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 0.5rem;
+  }
+  
+  .AboutContainer .mollit {
+    position: absolute;
+    top: 180%;
+    font-size: 20px;
+    line-height: 30px;
+    padding-left: 0.5rem;
+  }
+  
+  .AboutContainer .Aboutlink {
+    position: absolute;
+    top: 300%;
+    margin-left: 0.5rem;
+  }
+  
+  .AboutContainer .withUs {
+    text-decoration: none;
+    background-color: red;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 20px;
+  }
+  
+  .AboutContainer .Myimg {
+    visibility: hidden;
+  }
+  
+  .ValuesContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.132);
+    height: 60rem;
+    margin-top: 24rem;
+  }
+  
+  .ValuesContainer .Valuespan {
+    position: absolute;
+    top: 111.3%;
+    font-size: 30px;
+    padding-left: 0.6rem;
+  }
+  
+  .ValuesContainer .Avoutvalues {
+    padding-left: 2.6rem;
+    padding-top: 5rem;
+  }
+  
+  .ValuesContainer .qui {
+    padding-left: 1.5rem;
+    padding-top: 0.5rem;
+    line-height: 30px;
+    font-size: 18px;
+  }
+  
+  .ValuesContainer .link-value {
+    padding-top: 0rem;
+  }
+  
+  .ValuesContainer .Abtvalue-link {
+    text-decoration: none;
+    color: gray;
+    padding-left: 1.5rem;
+  }
+  
+  .ValuesContainer .span2 {
+    position: absolute;
+    top: 147%;
+    padding-left: 0.5rem;
+    font-size: 30px;
+  }
+  
+  .ValuesContainer .Avoutvalues2 {
+    padding-left: 3rem;
+    padding-top: 5rem;
+  } 
+  
+  .ValuesContainer .span3 {
+    position: absolute;
+    top: 182%;
+    padding-left: 0.5rem;
+    font-size: 30px;
+  }
+  
+  .ValuesContainer .Avoutvalues3 {
+    padding-left: 3rem;
+    padding-top: 5rem;
+  }
+    
+  .God-Presence {
+    text-align: center;
+    padding-top: 5rem;
+    color: red;
+    font-weight: 600;
+  }
+  
+  .OurPastors {
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  .Pstimg {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    position: relative;
+    padding-top: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .Pstimg .PstImg {
+    width: 310px;
+    height: 310px;
+    border-radius: 100%;
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+  }
+  
+  .Pstimg .background {
+    background-color: rgba(128, 128, 128, 0.256);
+    height: 31rem;
+    width: 111%;
+    margin-top: -23rem;
+    margin-bottom: 3rem;
+    /* margin-left: 0.5rem; */
+    margin-right: 2rem;
+  }
+  
+  .Pstimg .pstName {
+    position: absolute;
+    font-size: 22px;
+    /* letter-spacing: 1px; */
+    top: 21%;
+    font-weight: 545;
+    padding-left: 6rem;
+  }
+  
+  .Pstimg .lead {
+    color: red;
+    position: absolute;
+    top: 23%;
+    font-size: 21px;
+    padding-left: 8rem;
+    letter-spacing: 1px;
+    font-weight: 545;
+  }
+  
+  .Pstimg .pst-Name {
+    position: absolute;
+    font-size: 21px;
+    letter-spacing: 1px;
+    top: 45%;
+    font-weight: 545;
+    padding-left: 7.6rem;
+  }
+  
+  .Pstimg .Jlead {
+    color: red;
+    position: absolute;
+    top: 46.9%;
+    font-size: 21px;
+    padding-left: 9.4rem;
+    letter-spacing: 1px;
+    font-weight: 545;
+  }
+  
+  .Pstimg .pstname {
+    position: absolute;
+    font-size: 21px;
+    letter-spacing: 1px;
+    top: 69%;
+    font-weight: 545;
+    padding-left: 7rem;
+  
+  }
+  
+  .Pstimg .Clead {
+    color: red;
+    position: absolute;
+    top: 71%;
+    font-size: 21px;
+    padding-left: 9.5rem;
+    letter-spacing: 1px;
+    font-weight: 545;
+  }
+  
+  .Pstimg .PstName {
+    position: absolute;
+    font-size: 21px;
+    letter-spacing: 1px;
+    top: 93%;
+    font-weight: 545;
+    padding-left: 7.3rem;
+  }
+  
+  .Pstimg .Klead {
+    color: red;
+    position: absolute;
+    top: 94.9%;
+    font-size: 21px;
+    padding-left: 9rem;
+    letter-spacing: 1px;
+    font-weight: 545;
+  }
+  
+  .Aboutmail {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 0, 0, 0.628);
+    height: 15rem;
+    position: relative;
+  }
+  
+  .Aboutmail .mail-sub  {
+    padding-top: 5rem;
+    padding-left: 1rem;
+    font-size: 20px;
+  }
+  
+  .Aboutmail .my-form{
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  
+  .Aboutmail input {
+    width: 55%;
+    position: absolute;
+    top: 58%;
+    right: 40%;
+    height: 2.2rem;
+    text-indent: 5px;
+    background-color: white;
+    border: none;
+  }
+
+  .Aboutmail .About-button {
+    position: absolute;
+    top: 58%;
+    background-color: rgba(239, 231, 231, 0.865);
+    left: 60%;
+    height: 2.2rem;
+    border: none;
+    padding: 7px 20px;
+}
+
+.Aboutmail  {
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+}
+  
+  .Aboutcontact {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .Aboutcontact .About-contact {
+    color: black;
+    padding-top: 5rem;
+    padding-left: 1rem;
+  }
+  
+  .Aboutcontact .York {
+    color: black;
+    padding-top: 1rem;
+    font-size: 20px;
+    padding-left: 1rem;
+    font-weight: 700;
+  }
+  
+  .Aboutcontact .Avenue {
+    color: gray;
+    /* padding-top: 1rem; */
+    padding-left: 1rem;
+    font-size: 20px;
+  }
+  
+  .Aboutcontact .aboutmail {
+    color: black;
+    /* padding-top: 2rem; */
+    padding-left: 1rem;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  
+  .Aboutcontact .infos {
+    color: gray;
+  }
+  
+  .Aboutcontact .Aboutphone {
+    color: black;
+    font-size: 20px;
+    padding-left: 1rem;
+    /* padding-top: 2rem; */
+    font-weight: 700;
+  }
+  
+  .AboutFooter {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(128, 128, 128, 0.393);
+    margin-top: 2rem;
+  }
+  
+  .AboutFooter p {
+    padding-top: 1rem;
+    font-size: 20px;
+  }
+}
+
+@media screen and (width: 390px) {
+    .navbar-brand {
+      font-size: 22px;
+      font-weight: 550;
+    }
+    
+    .navbar-brand:hover {
+      color: black;
+    }
+  
+    .navbar-toggler-icon, .fa-solid {
+      font-size: 40px;
+      margin-top: 1.8rem;
+      margin-right: -01rem;
+    }
+  
+    .nav-link {
+      font-size: 18px;
+    }
+  
+    .Aboutimg {
+      position: relative;
+    }
+    
+    .Aboutimg .aboutImg {
+      width: 100%;
+      height: 15rem;
+    }
+    
+    .Aboutimg .about {
+      position: absolute;
+      top: 37%;
+      color: white;
+      padding-left: 1rem;
+    }
+    
+    .Aboutimg .aboutHome {
+      position: absolute;
+      top: 50%;
+      padding-left: 1rem;
+    }
+    
+    .Aboutimg .aboutHomeLink {
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+    }
+  
+    .AboutContainer {
+      display: flex;
+      flex-direction: column;
+      position: relative;
+    }
+    
+    .AboutContainer .aboutText {
+      position: absolute;
+      top: 30%;
+      font-size: 25px;
+      font-weight: 700;
+      padding-left: 1rem;
+      letter-spacing: 2px;
+    }
+    
+    .AboutContainer  .forGod {
+      position: absolute;
+      top: 90%;
+      font-size: 20px;
+      line-height: 30px;
+      padding-left: 1rem;
+    }
+    
+    .AboutContainer .mollit {
+      position: absolute;
+      top: 166%;
+      font-size: 20px;
+      line-height: 30px;
+      padding-left: 1rem;
+    }
+    
+    .AboutContainer .Aboutlink {
+      position: absolute;
+      top: 275%;
+      margin-left: 1rem;
+    }
+    
+    .AboutContainer .withUs {
+      text-decoration: none;
+      background-color: red;
+      padding: 10px 20px;
+      color: white;
+      border-radius: 20px;
+    }
+    
+    .AboutContainer .Myimg {
+      visibility: hidden;
+    }
+    
+    .ValuesContainer {
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(128, 128, 128, 0.132);
+      height: 60rem;
+      margin-top: 24rem;
+    }
+    
+    .ValuesContainer .Valuespan {
+      position: absolute;
+      top: 129.3%;
+      font-size: 30px;
+      padding-left: 0.6rem;
+    }
+    
+    .ValuesContainer .Avoutvalues {
+      padding-left: 2.6rem;
+      padding-top: 5rem;
+    }
+    
+    .ValuesContainer .qui {
+      padding-left: 1rem;
+      padding-top: 0.5rem;
+      line-height: 30px;
+      font-size: 18px;
+    }
+    
+    .ValuesContainer .link-value {
+      padding-top: 0rem;
+    }
+    
+    .ValuesContainer .Abtvalue-link {
+      text-decoration: none;
+      color: gray;
+      padding-left: 1rem;
+    }
+    
+    .ValuesContainer .span2 {
+      position: absolute;
+      top: 168.6%;
+      padding-left: 0.5rem;
+      font-size: 30px;
+    }
+    
+    .ValuesContainer .Avoutvalues2 {
+      padding-left: 3rem;
+      padding-top: 5rem;
+    } 
+    
+    .ValuesContainer .span3 {
+      position: absolute;
+      top: 207.4%;
+      padding-left: 0.5rem;
+      font-size: 30px;
+    }
+    
+    .ValuesContainer .Avoutvalues3 {
+      padding-left: 3rem;
+      padding-top: 5rem;
+    }
+      
+    .God-Presence {
+      text-align: center;
+      padding-top: 5rem;
+      color: red;
+      font-weight: 600;
+    }
+    
+    .OurPastors {
+      text-align: center;
+      font-size: 50px;
+    }
+    
+    .Pstimg {
+      display: flex;
+      flex-direction: column;
+      /* justify-content: space-between; */
+      position: relative;
+      padding-top: 5rem;
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+    
+    .Pstimg .PstImg {
+      width: 310px;
+      height: 310px;
+      border-radius: 100%;
+      margin-left: 0.3rem;
+      margin-top: 3rem;
+    }
+    
+    .Pstimg .background {
+      background-color: rgba(128, 128, 128, 0.256);
+      height: 31rem;
+      width: 112%;
+      margin-top: -23rem;
+      margin-bottom: 3rem;
+      /* margin-left: 0.5rem; */
+      /* margin-right: 2rem; */
+    }
+    
+    .Pstimg .pstName {
+      position: absolute;
+      font-size: 22px;
+      /* letter-spacing: 1px; */
+      top: 21%;
+      font-weight: 545;
+      padding-left: 4.6rem;
+    }
+    
+    .Pstimg .lead {
+      color: red;
+      position: absolute;
+      top: 22.8%;
+      font-size: 21px;
+      padding-left: 6.3rem;
+      letter-spacing: 1px;
+      font-weight: 545;
+    }
+    
+    .Pstimg .pst-Name {
+      position: absolute;
+      font-size: 21px;
+      letter-spacing: 1px;
+      top: 45%;
+      font-weight: 545;
+      padding-left: 6rem;
+    }
+    
+    .Pstimg .Jlead {
+      color: red;
+      position: absolute;
+      top: 46.5%;
+      font-size: 21px;
+      padding-left: 8rem;
+      letter-spacing: 1px;
+      font-weight: 545;
+    }
+    
+    .Pstimg .pstname {
+      position: absolute;
+      font-size: 21px;
+      letter-spacing: 1px;
+      top: 69%;
+      font-weight: 545;
+      padding-left: 6rem;
+    
+    }
+    
+    .Pstimg .Clead {
+      color: red;
+      position: absolute;
+      top: 70.5%;
+      font-size: 21px;
+      padding-left: 8rem;
+      letter-spacing: 1px;
+      font-weight: 545;
+    }
+    
+    .Pstimg .PstName {
+      position: absolute;
+      font-size: 21px;
+      letter-spacing: 1px;
+      top: 93%;
+      font-weight: 545;
+      padding-left: 6rem;
+    }
+    
+    .Pstimg .Klead {
+      color: red;
+      position: absolute;
+      top: 94.6%;
+      font-size: 21px;
+      padding-left: 8rem;
+      letter-spacing: 1px;
+      font-weight: 545;
+    }
+    
+    .Aboutmail {
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(255, 0, 0, 0.628);
+      height: 15rem;
+      position: relative;
+    }
+    
+    .Aboutmail .mail-sub  {
+      padding-top: 5rem;
+      padding-left: 1rem;
+      font-size: 20px;
+    }
+    
+    .Aboutmail .my-form{
+      margin-top: 2rem;
+      margin-left: 1rem;
+    }
+    
+    .Aboutmail input {
+      width: 55%;
+      position: absolute;
+      top: 58%;
+      right: 40%;
+      height: 2.2rem;
+      text-indent: 5px;
+      background-color: white;
+      border: none;
+    }
+  
+    .Aboutmail .About-button {
+      position: absolute;
+      top: 58%;
+      background-color: rgba(239, 231, 231, 0.865);
+      left: 60%;
+      height: 2.2rem;
+      border: none;
+      padding: 7px 20px;
+  }
+  
+  .Aboutmail  {
+      text-decoration: none;
+      color: red;
+      font-size: 15px;
+  }
+    
+    .Aboutcontact {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .Aboutcontact .About-contact {
+      color: black;
+      padding-top: 5rem;
+      padding-left: 1rem;
+    }
+    
+    .Aboutcontact .York {
+      color: black;
+      padding-top: 1rem;
+      font-size: 20px;
+      padding-left: 1rem;
+      font-weight: 700;
+    }
+    
+    .Aboutcontact .Avenue {
+      color: gray;
+      /* padding-top: 1rem; */
+      padding-left: 1rem;
+      font-size: 20px;
+    }
+    
+    .Aboutcontact .aboutmail {
+      color: black;
+      /* padding-top: 2rem; */
+      padding-left: 1rem;
+      font-size: 20px;
+      font-weight: 700;
+    }
+    
+    .Aboutcontact .infos {
+      color: gray;
+    }
+    
+    .Aboutcontact .Aboutphone {
+      color: black;
+      font-size: 20px;
+      padding-left: 1rem;
+      /* padding-top: 2rem; */
+      font-weight: 700;
+    }
+    
+    .AboutFooter {
+      display: flex;
+      flex-direction: column;
+      background-color: rgba(128, 128, 128, 0.393);
+      margin-top: 2rem;
+    }
+    
+    .AboutFooter p {
+      padding-top: 1rem;
+      font-size: 20px;
+    }
+  }
